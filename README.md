@@ -3,3 +3,4 @@
 Dylan Pringault
 Evan Gosselin
 Cyriaque Adam
+Nicolas Bareyt
