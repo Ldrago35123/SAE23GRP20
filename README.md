@@ -2,3 +2,4 @@
 ## Contributor
 Dylan Pringault
 Evan Gosselin
+Cyriaque Adam
