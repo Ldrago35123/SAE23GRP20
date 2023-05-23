@@ -7,4 +7,3 @@ Nicolas Bareyt
 ## Contributor Prof
 David Gatel
 François-Regis Menguy
-
