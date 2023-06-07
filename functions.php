@@ -66,6 +66,23 @@ function pageheader(){
     </script>';
 }
 
+
+// Fonctions Annuaire
+function chargerAnnuaire() {
+    $annuaire_json = file_get_contents('data/users2.json');
+    $annuaire = json_decode($annuaire_json, true);
+    return $annuaire;
+  }
+  
+function trouverEmploye($annuaire, $id) {
+    foreach ($annuaire['employes'] as $key => $employe) {
+      if ($employe['id'] === $id) {
+        return $key;
+      }
+    }
+    return null;
+  }  
+
 function pagenavbar($pageactive){
     ?>
     <nav class="navbar navbar-expand-sm bg-secondary">
