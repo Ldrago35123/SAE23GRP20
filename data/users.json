@@ -1,0 +1,157 @@
+{
+    "Dylan": {
+        "user": "Dylan",
+        "mdp": "ldrago",
+        "role": "admin"
+    },
+    "Adam.S": {
+        "user": "Adam",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Zoé.D": {
+        "user": "Zoé",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Arthur.G": {
+        "user": "Arthur",
+        "mdp": "bonjour",
+        "role": "Directeur"
+    },
+    "Jules.R": {
+        "user": "Jules",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Jules.Benzema": {
+        "user": "Jules",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Adam.R": {
+        "user": "Adam",
+        "mdp": "bonjour",
+        "role": "Manager"
+    },
+    "Lina.M": {
+        "user": "Lina",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Hugo.B": {
+        "user": "Hugo",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Zoé.G": {
+        "user": "Zoé",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Nathan.G": {
+        "user": "Nathan",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Julie.D": {
+        "user": "Julie",
+        "mdp": "bonjour",
+        "role": "Manager"
+    },
+    "Lucas.S": {
+        "user": "Lucas",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Alice.S": {
+        "user": "Alice",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Gwenaelle.S": {
+        "user": "Gwenaelle",
+        "mdp": "bonjour",
+        "role": "Administrateur"
+    },
+    "Raphaël.T": {
+        "user": "Raphaël",
+        "mdp": "bonjour",
+        "role": "Administrateur"
+    },
+    "Jade.M": {
+        "user": "Jade",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Emma.Bertrand": {
+        "user": "Emma",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Gabriel.P": {
+        "user": "Gabriel",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Zoé.L": {
+        "user": "Zoé",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Louis.M": {
+        "user": "Louis",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Lola.J": {
+        "user": "Lola",
+        "mdp": "bonjour",
+        "role": "Directrice"
+    },
+    "Louis.C": {
+        "user": "Louis",
+        "mdp": "bonjour",
+        "role": "Manager"
+    },
+    "Nathan.M": {
+        "user": "Nathan",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Alice.D": {
+        "user": "Alice",
+        "mdp": "bonjour",
+        "role": "Manager"
+    },
+    "Emma.Bernard": {
+        "user": "Emma",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Lucas.J": {
+        "user": "Lucas",
+        "mdp": "bonjour",
+        "role": "Administrateur"
+    },
+    "Raphaël.H": {
+        "user": "Raphaël",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Louise.S": {
+        "user": "Louise",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    },
+    "Jules.Bernard": {
+        "user": "Jules",
+        "mdp": "bonjour",
+        "role": "Manager"
+    },
+    "Lola.M": {
+        "user": "Lola",
+        "mdp": "bonjour",
+        "role": "Salarié"
+    }
+}
