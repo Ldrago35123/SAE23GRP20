@@ -1,5 +1,4 @@
-<?php include 'functions.php'; 
-$pageactive = "gestion_fichiers.php";?>
+<?php include 'functions.php'; ?>
 <!-- index.php -->
 <!DOCTYPE html>
 <html lang="fr">
@@ -12,10 +11,8 @@ $pageactive = "gestion_fichiers.php";?>
 </head>
 
 <body>
-<!-- Barre de navigation -->
-<?php pageheader(); ?>
- <?php pagenavbar($pageactive); ?>
-<!-- Barre de navigation -->
+    <?php pageheader(); ?>
+    <?php pagenavbar('gestion_fichiers.php'); ?>
 
     <div class="container mt-5">
         <h1 class="mb-4">Gestion des fichiers</h1>
@@ -28,6 +25,17 @@ $pageactive = "gestion_fichiers.php";?>
             </div>
             <button type="submit" class="btn btn-primary" name="ajouterFichier">Ajouter</button>
         </form>
+
+        <?php
+        if (isset($_POST['ajouterFichier'])) {
+            $file = $_FILES['fichier'];
+            if (uploadFile($file)) {
+                echo '<div class="alert alert-success mt-3">Fichier ajouté avec succès.</div>';
+            } else {
+                echo '<div class="alert alert-success mt-3">Fichier ajouté avec succès.</div>';
+            }
+        }
+        ?>
 
         <h2 class="mt-4">Liste des fichiers</h2>
         <?php
