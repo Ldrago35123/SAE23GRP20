@@ -140,6 +140,6 @@
     card.parentNode.removeChild(card);
   }
 </script>
-
+<?php pagefooter(); ?>
 </body>
 </html>
