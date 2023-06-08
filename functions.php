@@ -360,6 +360,51 @@ if (isset($_POST['supprimerFichier'])) {
         supprimerFichier($dossier, $fichier);
     }
 }
+function uploadFile($file) {
+    $targetDir = 'uploads/';
+    $targetFile = $targetDir . basename($file['name']);
+    $uploadOk = 1;
+    $imageFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
+
+    // Vérifie si le fichier est une image réelle ou une fausse image
+    if(isset($_POST["submit"])) {
+        $check = getimagesize($file["tmp_name"]);
+        if($check !== false) {
+            $uploadOk = 1;
+        } else {
+            $uploadOk = 0;
+        }
+    }
+
+    // Vérifie si le fichier existe déjà
+    if (file_exists($targetFile)) {
+        $uploadOk = 0;
+    }
+
+    // Vérifie la taille du fichier
+    if ($file["size"] > 500000) {
+        $uploadOk = 0;
+    }
+
+    // Autorise certains formats de fichiers
+    if (
+        $imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+        && $imageFileType != "gif"
+    ) {
+        $uploadOk = 0;
+    }
+
+    // Vérifie si $uploadOk est à 0 à cause d'une erreur
+    if ($uploadOk == 0) {
+        return false;
+    } else {
+        if (move_uploaded_file($file["tmp_name"], $targetFile)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
 
 
 
