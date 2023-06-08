@@ -89,7 +89,7 @@ function pagenavbar($pageactive){
         <div class="container-fluid">
             <ul class="navbar-nav">
     <?php
-        $affiche_page = array("accueil.php" => "Accueil", "Qui sommes-nous.php" => "Qui sommes nous ?", "histoire.php" => "Notre histoire", "activites.php" => "Nos activités", "partenaires.php" => "Partenaires");
+        $affiche_page = array("accueil.php" => "Accueil", "Qui sommes-nous.php" => "Qui sommes nous ?", "histoire.php" => "Notre histoire", "activites.php" => "Nos activités", "partenaires.php" => "Partenaires", "gestion_fichiers.php" => "Fichiers");
         foreach($affiche_page as $key => $value){
         if($key == $pageactive){ ?>
             <li class="nav-item">
