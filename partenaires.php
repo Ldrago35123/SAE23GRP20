@@ -28,105 +28,35 @@
  <?php pagenavbar('Partenaires'); ?>
 <!-- Barre de navigation -->
 
-
-<!-- Carrousel -->
-<!-- Carrousel -->
-<div id="carouselExample" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExample" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="chemin/vers/image1.jpg" class="d-block w-100" alt="Bienvenue chez Pixel Master">
-      <div class="carousel-caption d-flex justify-content-center align-items-center">
-        <div class="text-center">
-          <h5>Bienvenue chez Pixel Master</h5>
-          <p>L'entreprise de jeux vidéo</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="chemin/vers/image2.jpg" class="d-block w-100" alt="Image 2">
-      <div class="carousel-caption d-flex justify-content-center align-items-center">
-        <div class="text-center">
-          <!-- Ajoutez du texte ou des informations supplémentaires pour la deuxième image si nécessaire -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Précédent</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Suivant</span>
-  </a>
-</div>
-
-
-
-
- 
-
-  <!-- Section Accueil -->
-  <section id="accueil" class="mt-5">
-    <div class="container">
-      <h1>Présentation de l'entreprise</h1>
-      <p>Notre société, représentée par M. Gatel et M. Menguy, souhaite explorer les opportunités de communication et d’innovation autour d’un projet de portail web. Notre approche consiste à concevoir un site complet permettant de valoriser les activités de l’entreprise et d’apporter une solution de partage de fichiers entre nos collaborateurs.</p>
-    </div>
-  </section>
-
-  <!-- Section Qui sommes-nous ? -->
-  <section id="qui-sommes-nous" class="mt-5">
-    <div class="container">
-      <h2>Qui sommes-nous ?</h2>
-      <p>Présentation de l'entreprise (dirigeants, membres principaux de l’équipe).</p>
-    </div>
-  </section>
-
-  <!-- Section Histoire -->
-  <section id="histoire" class="mt-5">
-    <div class="container">
-      <h2>Histoire</h2>
-      <p>Description de l’évolution de l’entreprise au fil du temps (changement de présidence, acquisition d’entreprise, développement des sites géographiques …).</p>
-    </div>
-  </section>
-
-  <!-- Section Activités -->
-  <section id="activites" class="mt-5">
-    <div class="container">
-      <h2>Activités</h2>
-      <p>Présentation des différentes activités de l'entreprise.</p>
-    </div>
-</section>
 <!-- Section Partenaires -->
 <section id="partenaires" class="mt-5">
   <div class="container">
     <h2>Partenaires</h2>
     <div class="row">
       <div class="col-md-4">
-        <div class="card">
-          <img src="logo-partenaire1.png" class="card-img-top" alt="Logo Partenaire 1">
+        <div class="card h-100">
+          <img src="images/ubisoft.png" class="w-100 card-img-top" alt="Logo Partenaire 1">
           <div class="card-body">
-            <p class="card-text">Commentaire sur le partenariat avec Partenaire 1.</p>
+            <h5 class="card-title">Ubisoft</h5>
+            <p class="card-text">Ubisoft est un éditeur de jeux vidéo français, connu pour des franchises telles que Assassin's Creed, Far Cry et Watch Dogs.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
-          <img src="logo-partenaire2.png" class="card-img-top" alt="Logo Partenaire 2">
+        <div class="card h-100">
+          <img src="images/logitech.png" class="w-100 card-img-top" alt="Logo Partenaire 2">
           <div class="card-body">
-            <p class="card-text">Commentaire sur le partenariat avec Partenaire 2.</p>
+            <h5 class="card-title">Logitech</h5>
+            <p class="card-text">Logitech est un fabricant d'équipements informatiques et périphériques, spécialisé dans les souris, claviers et casques gaming.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
-          <img src="logo-partenaire3.png" class="card-img-top" alt="Logo Partenaire 3">
+        <div class="card h-100">
+          <img src="images/ea.png" class="w-100 card-img-top" alt="Logo Partenaire 3">
           <div class="card-body">
-            <p class="card-text">Commentaire sur le partenariat avec Partenaire 3.</p>
+            <h5 class="card-title">Electronic Arts</h5>
+            <p class="card-text">Electronic Arts est une société américaine de développement et d'édition de jeux vidéo, célèbre pour des franchises comme FIFA, Battlefield et The Sims.</p>
           </div>
         </div>
       </div>
