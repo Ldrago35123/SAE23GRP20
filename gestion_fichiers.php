@@ -1,6 +1,17 @@
 <?php
 session_start();
 
+include('functions.php');
+$pageactive = "gestion_fichiers.php";
+
+?>
+
+<!-- Barre de navigation -->
+ <?php pageheader(); ?>
+ <?php pagenavbar($pageactive); ?>
+<!-- Barre de navigation -->
+
+<?php
 // Vérifier si l'utilisateur est connecté
 $loggedIn = false;
 if (isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] === true) {

@@ -15,8 +15,10 @@ $annuaire = chargerAnnuaire();
 </head>
 <body>
   
-<!-- navbar -->
-<?php pagenavbar('Annuaire'); ?>
+<!-- Barre de navigation -->
+<?php pageheader(); ?>
+ <?php pagenavbar($pageactive); ?>
+<!-- Barre de navigation -->
 
 <!-- Section Annuaire -->
 <section id="annuaire" class="mt-5">

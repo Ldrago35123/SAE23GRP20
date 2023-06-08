@@ -4,15 +4,6 @@
 ?>
 
 
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +19,7 @@
 
 <!-- Barre de navigation -->
  <?php pageheader(); ?>
- <?php pagenavbar('Histoire'); ?>
+ <?php pagenavbar($pageactive); ?>
 <!-- Barre de navigation -->
 
 

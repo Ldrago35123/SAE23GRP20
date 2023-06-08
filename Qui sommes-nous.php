@@ -15,8 +15,8 @@
 <body>
 
 <!-- Barre de navigation -->
- <?php pageheader(); ?>
- <?php pagenavbar('Qui sommes-nous'); ?>
+<?php pageheader(); ?>
+<?php pagenavbar($pageactive); ?>
 <!-- Barre de navigation -->
  
 

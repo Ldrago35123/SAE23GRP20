@@ -1,6 +1,6 @@
 <?php
 include('functions.php');
-
+$pageactive = "gestionutilisateur.php";
 // Charger l'annuaire
 $annuaire = chargerAnnuaire();
 ?>
@@ -16,7 +16,8 @@ $annuaire = chargerAnnuaire();
 <body>
   
 <!-- navbar -->
- <?php pagenavbar('Accueil'); ?>
+<?php pageheader(); ?>
+<?php pagenavbar($pageactive); ?>
 
 <!-- Section Annuaire -->
 <section id="annuaire" class="mt-5">

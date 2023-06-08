@@ -4,15 +4,6 @@
 ?>
 
 
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +16,7 @@
 
 <!-- Barre de navigation -->
  <?php pageheader(); ?>
- <?php pagenavbar('Partenaires'); ?>
+ <?php pagenavbar($pageactive); ?>
 <!-- Barre de navigation -->
 
 <!-- Section Partenaires -->
