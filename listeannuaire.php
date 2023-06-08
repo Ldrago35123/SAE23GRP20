@@ -1,5 +1,6 @@
 <?php
 include('functions.php');
+$pageactive = "listeannuaire.php";
 
 // Charger l'annuaire
 $annuaire = chargerAnnuaire();

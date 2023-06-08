@@ -1,4 +1,5 @@
-<?php include 'functions.php'; ?>
+<?php include 'functions.php'; 
+$pageactive = "gestion_fichiers.php";?>
 <!-- index.php -->
 <!DOCTYPE html>
 <html lang="fr">
@@ -11,8 +12,10 @@
 </head>
 
 <body>
-     <?php pageheader(); ?>
-    <?php pagenavbar('gestion_fichiers.php'); ?>
+<!-- Barre de navigation -->
+<?php pageheader(); ?>
+ <?php pagenavbar($pageactive); ?>
+<!-- Barre de navigation -->
 
     <div class="container mt-5">
         <h1 class="mb-4">Gestion des fichiers</h1>

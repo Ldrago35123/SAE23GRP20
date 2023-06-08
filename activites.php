@@ -45,7 +45,7 @@
       </div>
       <div class="col-md-4">
         <div class="card h-100">
-          <img src="images/r6.jpg" class="w-100 card-img-top" alt="Logo Partenaire 3">
+          <img src="images/R6.jpg" class="w-100 card-img-top" alt="Logo Partenaire 3">
           <div class="card-body">
             <h5 class="card-title">Jeux de stratégie</h5>
             <p class="card-text">Rainbow Six Siege est un jeu de tir tactique en équipe où la coordination et la stratégie sont essentielles. Les joueurs se divisent en attaquants et défenseurs, utilisant des opérateurs spécialisés et des compétences uniques pour mener à bien des missions intenses et compétitives. La communication et la planification sont cruciales pour réussir à prendre le dessus sur l'adversaire.</p>
