@@ -30,7 +30,7 @@ function pageheader(){
                 </div>
             </div>';
 
-    session_start();
+    
 
     // Vérification si l'utilisateur est déjà connecté
     if(isset($_SESSION['user'])) {
@@ -283,7 +283,7 @@ function connexion($usr, $mdp){
 
         if ($mdp === $password) { // Vérification si le mot de passe est correct (sans hachage)
 
-            session_start(); // Création de la session
+            // Création de la session
             $_SESSION['user'] = $usr;
             $_SESSION['role'] = $users[$usr]['role'];
             return true;
@@ -312,6 +312,54 @@ function findUsers($texte) {
     return $matching_users;
 }
 
+session_start();
+
+function listerFichiers($dossier)
+{
+    $fichiers = scandir($dossier);
+    $fichiers = array_diff($fichiers, array('.', '..')); // Supprimer les fichiers '.' et '..'
+    return $fichiers;
+}
+
+function ajouterFichier($dossier, $fichier)
+{
+    $destination = $dossier . '/' . $fichier['name'];
+    if (move_uploaded_file($fichier['tmp_name'], $destination)) {
+        echo '<div class="alert alert-success" role="alert">Le fichier a été ajouté avec succès</div>';
+    } else {
+        echo '<div class="alert alert-danger" role="alert">Une erreur s\'est produite lors de l\'ajout du fichier</div>';
+    }
+}
+
+function supprimerFichier($dossier, $fichier)
+{
+    $chemin = $dossier . '/' . $fichier;
+    if (file_exists($chemin)) {
+        if (unlink($chemin)) {
+            echo '<div class="alert alert-success" role="alert">Le fichier a été supprimé avec succès</div>';
+        } else {
+            echo '<div class="alert alert-danger" role="alert">Une erreur s\'est produite lors de la suppression du fichier</div>';
+        }
+    } else {
+        echo '<div class="alert alert-danger" role="alert">Le fichier n\'existe pas</div>';
+    }
+}
+
+
+$dossier = 'uploads'; // Dossier de stockage des fichiers
+
+if (isset($_POST['ajouterFichier'])) {
+    if (isset($_FILES['fichier'])) {
+        ajouterFichier($dossier, $_FILES['fichier']);
+    }
+}
+
+if (isset($_POST['supprimerFichier'])) {
+    if (isset($_POST['fichier'])) {
+        $fichier = $_POST['fichier'];
+        supprimerFichier($dossier, $fichier);
+    }
+}
 
 
 
