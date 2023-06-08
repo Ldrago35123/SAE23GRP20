@@ -32,14 +32,14 @@
 <!-- Section Activités -->
 <section id="partenaires" class="mt-5">
   <div class="container">
-    <h2>Partenaires</h2>
+    <h2>Nos Activités</h2>
     <div class="row">
       <div class="col-md-4">
         <div class="card h-100">
           <img src="images/bf.jpg" class="w-100 card-img-top" alt="Logo Partenaire 1">
           <div class="card-body">
             <h5 class="card-title">Jeux d'action</h5>
-            <p class="card-text">Ubisoft est un éditeur de jeux vidéo français, connu pour des franchises telles que Assassin's Creed, Far Cry et Watch Dogs.</p>
+            <p class="card-text">Battlefield 5 est un jeu de tir à la première personne qui se déroule pendant la Seconde Guerre mondiale. Les joueurs participent à des combats intenses sur divers champs de bataille, avec des graphismes impressionnants et une expérience multijoueur immersive.</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
           <img src="images/ff15.png" class="w-100 card-img-top" alt="Logo Partenaire 2">
           <div class="card-body">
             <h5 class="card-title">Jeux de rôle</h5>
-            <p class="card-text">Logitech est un fabricant d'équipements informatiques et périphériques, spécialisé dans les souris, claviers et casques gaming.</p>
+            <p class="card-text">Final Fantasy 15 est un jeu de rôle japonais qui suit les aventures du prince Noctis et de ses amis dans un vaste monde ouvert. Le jeu offre un mélange d'action en temps réel et de stratégie, avec des combats épiques, une histoire captivante et des graphismes magnifiques.</p>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
           <img src="images/r6.jpg" class="w-100 card-img-top" alt="Logo Partenaire 3">
           <div class="card-body">
             <h5 class="card-title">Jeux de stratégie</h5>
-            <p class="card-text">Electronic Arts est une société américaine de développement et d'édition de jeux vidéo, célèbre pour des franchises comme FIFA, Battlefield et The Sims.</p>
+            <p class="card-text">Rainbow Six Siege est un jeu de tir tactique en équipe où la coordination et la stratégie sont essentielles. Les joueurs se divisent en attaquants et défenseurs, utilisant des opérateurs spécialisés et des compétences uniques pour mener à bien des missions intenses et compétitives. La communication et la planification sont cruciales pour réussir à prendre le dessus sur l'adversaire.</p>
           </div>
         </div>
       </div>
