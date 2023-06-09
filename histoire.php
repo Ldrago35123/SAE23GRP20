@@ -13,7 +13,7 @@ $pageactive = "histoire.php";
   <style>
     .list-group {
       position: fixed;
-      top: 9%;
+      top: 25%;
       left: 1%;
       width: 12%;
       height: 10%;
@@ -23,19 +23,18 @@ $pageactive = "histoire.php";
   </style>
 </head>
 <body>
-
 <!-- Barre de navigation -->
 <?php pageheader(); ?>
-<?php pagenavbar($pageactive); ?>
+ <?php pagenavbar($pageactive); ?>
 <!-- Barre de navigation -->
 
 <div class="row">
   <div class="col-sm-2">
     <div id="list-example" class="list-group">
       <a class="list-group-item list-group-item-action" href="#list-item-1">La naissance</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Premier jeux</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">Développement</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-4">Le futur</a>
     </div>
   </div>
   <div class="col-sm-8">
@@ -52,7 +51,7 @@ $pageactive = "histoire.php";
 </p>
 
       <p id="list-item-2"><div class="card bg-dark text-white" >
-  <img src="images/maison.jpg" class="card-img-top" alt="...">
+  <img src="images/soldat.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Premier jeux</h5>
     <p class="card-text">
@@ -61,7 +60,7 @@ $pageactive = "histoire.php";
   </div>
 </div>
       <p id="list-item-3"><div class="card bg-dark text-white" >
-  <img src="images/maison.jpg" class="card-img-top" alt="...">
+  <img src="images/manette2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Dévellopement de l'entreprise</h5>
     <p class="card-text">
@@ -71,7 +70,7 @@ $pageactive = "histoire.php";
 </div></p>
 
       <p id="list-item-4"><div class="card bg-dark text-white" >
-  <img src="images/maison.jpg" class="card-img-top" alt="...">
+  <img src="images/futur.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Le futur</h5>
     <p class="card-text">Notre succès repose sur notre engagement à toujours rester à la pointe de l'innovation, à anticiper les tendances du marché et à créer des jeux qui suscitent l'engouement et l'enthousiasme de notre communauté de joueurs.</p>
@@ -80,15 +79,13 @@ $pageactive = "histoire.php";
     </div>
   </div>
 </div>
-
-
 <style>
     #progress-bar {
       position: fixed;
       top: 0;
       left: 0;
       width: 10px;
-      height: 100%;
+  height: 100%;
       background-color: white;
     }
 
@@ -98,14 +95,11 @@ $pageactive = "histoire.php";
       transition: height 1s;
     }
   </style>
-
-  <div id="progress-bar">
+ <div id="progress-bar">
     <div id="progress-fill"></div>
   </div>
 
-  <!-- Votre contenu de page ici -->
-
-  <script>
+<script>
     var progressBar = document.getElementById('progress-fill');
 
     window.addEventListener('scroll', function() {

@@ -35,7 +35,7 @@ function pageheader(){
     // Vérification si l'utilisateur est déjà connecté
     if(isset($_SESSION['user'])) {
         echo '<p>Bonjour '.$_SESSION['user'].', vous êtes connecté</p>';
-        echo '<form method="post"><button type="submit" class="btn btn-primary" name="logoutBtn">Déconnexion</button></form>';
+        echo '<for*m method="post"><button type="submit" class="btn btn-primary" name="logoutBtn">Déconnexion</button></form>';
     }
 
     // Traitement de la connexion
@@ -119,12 +119,10 @@ function pagefooter() {
           <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
               <h5 class="text-uppercase mb-4">A propos de nous</h5>
               <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-              voluptatum deleniti atque corrupti.
+              Entreprise concentrée sur son travail, en association avec les plus grand, nous avons l\'honneur de faire la gestion des jeux d\'actualités
               </p>
               <p>
-              Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-              molestias.
+              Nous espérons un avenir meilleur pour l\'univers du jeu vidéo
               </p>
 <div class="mt-4">
                   <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
@@ -149,20 +147,20 @@ function pagefooter() {
               </ul>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-4">Heures d ouverture</h5>
+              <h5 class="text-uppercase mb-4">Heures d\'ouverture</h5>
               <table class="table text-center text-white">
               <tbody class="fw-normal">
               <tr>
               <td>Lundi - Mardi:</td>
-              <td>8h - 21h</td>
+              <td>8h - 20h</td>
               </tr>
               <tr>
               <td>Vendredi - Samedi:</td>
-              <td>8h - 1h</td>
+              <td>8h - 18h</td>
               </tr>
               <tr>
               <td>Dimanche:</td>
-              <td>9h - 22h</td>
+              <td>9h - 12h</td>
               </tr>
               </tbody>
               </table>
