@@ -35,7 +35,7 @@ function pageheader(){
     // Vérification si l'utilisateur est déjà connecté
     if(isset($_SESSION['user'])) {
         echo '<p>Bonjour '.$_SESSION['user'].', vous êtes connecté</p>';
-        echo '<for*m method="post"><button type="submit" class="btn btn-primary" name="logoutBtn">Déconnexion</button></form>';
+        echo '<form method="post"><button type="submit" class="btn btn-primary" name="logoutBtn">Déconnexion</button></form>';
     }
 
     // Traitement de la connexion
