@@ -1,6 +1,5 @@
 <?php
 include('functions.php');
-$pageactive = "histoire.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,10 +23,9 @@ $pageactive = "histoire.php";
 </head>
 <body>
 <!-- Barre de navigation -->
-<?php pageheader(); ?>
- <?php pagenavbar($pageactive); ?>
-<!-- Barre de navigation -->
-
+ <?php
+  pagenavbar("Histoire");
+  ?>
 <div class="row">
   <div class="col-sm-2">
     <div id="list-example" class="list-group">
